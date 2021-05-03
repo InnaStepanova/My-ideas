@@ -41,6 +41,8 @@ class ViewController: UITableViewController {
     }
 
     @objc private func addIdea(){
+        print("NEW IDEA")
     }
+    
 }
 
