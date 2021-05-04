@@ -12,6 +12,7 @@
 		0210DC5C26401E0E003B0697 /* My_ideas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0210DC5A26401E0E003B0697 /* My_ideas.xcdatamodeld */; };
 		0210DC5E26401E0F003B0697 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0210DC5D26401E0F003B0697 /* Assets.xcassets */; };
 		0210DC6126401E0F003B0697 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0210DC5F26401E0F003B0697 /* LaunchScreen.storyboard */; };
+		02A6193E2641F047008CDCDA /*  StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A6193D2641F047008CDCDA /*  StorageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0210DC5D26401E0F003B0697 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0210DC6026401E0F003B0697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0210DC6226401E0F003B0697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02A6193D2641F047008CDCDA /*  StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " StorageManager.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				0210DC5126401E0E003B0697 /* AppDelegate.swift */,
 				0210DC5526401E0E003B0697 /* ViewController.swift */,
+				02A6193D2641F047008CDCDA /*  StorageManager.swift */,
 				0210DC5D26401E0F003B0697 /* Assets.xcassets */,
 				0210DC5F26401E0F003B0697 /* LaunchScreen.storyboard */,
 				0210DC6226401E0F003B0697 /* Info.plist */,
@@ -136,6 +139,7 @@
 				0210DC5C26401E0E003B0697 /* My_ideas.xcdatamodeld in Sources */,
 				0210DC5626401E0E003B0697 /* ViewController.swift in Sources */,
 				0210DC5226401E0E003B0697 /* AppDelegate.swift in Sources */,
+				02A6193E2641F047008CDCDA /*  StorageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

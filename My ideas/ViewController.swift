@@ -6,12 +6,18 @@
 //
 
 import UIKit
+import CoreData
 
 class ViewController: UITableViewController {
+    
+    private let cellID = "cell"
+    
+    private var ideas: [Idea] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
         setupNavigationBar()
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: cellID)
         
     }
 
@@ -40,9 +46,20 @@ class ViewController: UITableViewController {
         navigationController?.navigationBar.tintColor = .white
     }
 
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        ideas.count
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellID, for: indexPath)
+        let idea = ideas[indexPath.row]
+        cell.textLabel?.text = idea.newIdea
+        
+        return cell
+    }
+    
     @objc private func addIdea(){
-        print("NEW IDEA")
+    
     }
     
 }
-
